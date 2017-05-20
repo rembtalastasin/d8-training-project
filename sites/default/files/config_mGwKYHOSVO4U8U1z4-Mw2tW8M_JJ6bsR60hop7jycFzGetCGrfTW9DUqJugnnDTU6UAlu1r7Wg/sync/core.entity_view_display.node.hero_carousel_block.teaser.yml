@@ -1,0 +1,28 @@
+uuid: 2caf94aa-bfcb-481d-b5b8-28d50b85bb8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hero_carousel_block.body
+    - node.type.hero_carousel_block
+  module:
+    - text
+    - user
+id: node.hero_carousel_block.teaser
+targetEntityType: node
+bundle: hero_carousel_block
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

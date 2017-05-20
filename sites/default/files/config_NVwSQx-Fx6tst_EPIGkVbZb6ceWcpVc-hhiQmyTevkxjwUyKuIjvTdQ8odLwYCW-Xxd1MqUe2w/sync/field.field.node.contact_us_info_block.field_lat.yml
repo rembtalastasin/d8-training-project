@@ -1,0 +1,23 @@
+uuid: 3faed1ae-90aa-4f39-b635-ec734a1411c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lat
+    - node.type.contact_us_info_block
+id: node.contact_us_info_block.field_lat
+field_name: field_lat
+entity_type: node
+bundle: contact_us_info_block
+label: Lat
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

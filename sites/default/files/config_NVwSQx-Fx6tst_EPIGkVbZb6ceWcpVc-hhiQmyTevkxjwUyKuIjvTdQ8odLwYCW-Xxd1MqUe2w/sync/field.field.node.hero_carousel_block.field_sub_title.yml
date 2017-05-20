@@ -1,0 +1,19 @@
+uuid: 5f3cc6e3-1592-4c81-87da-b3e2a62c59b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sub_title
+    - node.type.hero_carousel_block
+id: node.hero_carousel_block.field_sub_title
+field_name: field_sub_title
+entity_type: node
+bundle: hero_carousel_block
+label: 'Sub Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

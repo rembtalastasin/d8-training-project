@@ -1,0 +1,22 @@
+uuid: 5b02d4a9-3757-4d15-b407-68b28abbe14d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.landin_pages
+  module:
+    - text
+id: node.landin_pages.body
+field_name: body
+entity_type: node
+bundle: landin_pages
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

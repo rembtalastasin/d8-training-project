@@ -1,0 +1,22 @@
+uuid: 5469540f-e80d-4de8-99ef-69c04c57a11c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.special_promo
+  module:
+    - text
+id: node.special_promo.body
+field_name: body
+entity_type: node
+bundle: special_promo
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

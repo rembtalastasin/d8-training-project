@@ -1,0 +1,51 @@
+uuid: a3f545d3-5341-45be-bf71-a3e976585aa4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.article
+    - node.type.blog_news
+    - node.type.event_participants
+    - node.type.events
+    - node.type.full_width_carousel
+    - node.type.hero_carousel_block
+    - node.type.landin_pages
+    - node.type.menu
+    - node.type.our_story_block
+    - node.type.page
+    - node.type.profiles
+    - node.type.reservations
+    - node.type.special_promo
+id: node.our_story_block.field_content
+field_name: field_content
+entity_type: node
+bundle: our_story_block
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+      page: page
+      blog_news: blog_news
+      event_participants: event_participants
+      events: events
+      full_width_carousel: full_width_carousel
+      hero_carousel_block: hero_carousel_block
+      landin_pages: landin_pages
+      menu: menu
+      our_story_block: our_story_block
+      profiles: profiles
+      reservations: reservations
+      special_promo: special_promo
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: article
+field_type: entity_reference

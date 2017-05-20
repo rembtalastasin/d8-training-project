@@ -1,0 +1,54 @@
+uuid: 820b6760-05ee-4cdf-b26b-4eaf55b9416f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.our_story_block.body
+    - field.field.node.our_story_block.field_content
+    - field.field.node.our_story_block.field_excerpt
+    - field.field.node.our_story_block.field_our_story_
+    - node.type.our_story_block
+  module:
+    - image
+    - text
+    - user
+id: node.our_story_block.default
+targetEntityType: node
+bundle: our_story_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_content:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_excerpt:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_our_story_:
+    weight: 104
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

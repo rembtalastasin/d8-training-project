@@ -1,0 +1,22 @@
+uuid: f50a3e51-de1f-467f-aa88-82b907ff1c84
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hero_carousel_block
+id: node.hero_carousel_block.promote
+field_name: promote
+entity_type: node
+bundle: hero_carousel_block
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

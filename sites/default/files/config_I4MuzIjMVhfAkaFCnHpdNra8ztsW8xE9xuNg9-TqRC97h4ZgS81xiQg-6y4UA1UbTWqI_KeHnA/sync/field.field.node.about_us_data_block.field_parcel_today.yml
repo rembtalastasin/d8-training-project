@@ -1,0 +1,23 @@
+uuid: 8f3f4200-c34b-43f9-b5b0-ef8f1310ffd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parcel_today
+    - node.type.about_us_data_block
+id: node.about_us_data_block.field_parcel_today
+field_name: field_parcel_today
+entity_type: node
+bundle: about_us_data_block
+label: 'Parcel Today'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

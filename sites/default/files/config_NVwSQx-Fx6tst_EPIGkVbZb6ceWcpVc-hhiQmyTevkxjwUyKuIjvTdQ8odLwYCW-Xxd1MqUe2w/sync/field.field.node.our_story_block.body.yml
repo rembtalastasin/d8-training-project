@@ -1,0 +1,22 @@
+uuid: e9f70bbd-e4cb-40cc-b705-510c8f6e7ef9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.our_story_block
+  module:
+    - text
+id: node.our_story_block.body
+field_name: body
+entity_type: node
+bundle: our_story_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

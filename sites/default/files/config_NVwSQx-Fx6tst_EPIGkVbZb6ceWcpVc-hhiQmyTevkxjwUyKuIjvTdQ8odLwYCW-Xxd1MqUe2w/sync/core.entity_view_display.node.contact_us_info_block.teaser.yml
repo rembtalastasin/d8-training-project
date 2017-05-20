@@ -1,0 +1,28 @@
+uuid: 90addbb6-246b-4caa-ab47-b1068bcee186
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.contact_us_info_block.body
+    - node.type.contact_us_info_block
+  module:
+    - text
+    - user
+id: node.contact_us_info_block.teaser
+targetEntityType: node
+bundle: contact_us_info_block
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

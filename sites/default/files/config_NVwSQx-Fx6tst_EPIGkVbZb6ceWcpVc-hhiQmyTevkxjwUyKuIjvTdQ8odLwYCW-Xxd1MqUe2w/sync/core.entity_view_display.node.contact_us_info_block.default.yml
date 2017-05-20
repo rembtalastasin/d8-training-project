@@ -1,0 +1,77 @@
+uuid: cd699608-cc5c-40c2-8fc6-ae75301574ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.contact_us_info_block.body
+    - field.field.node.contact_us_info_block.field_address
+    - field.field.node.contact_us_info_block.field_email
+    - field.field.node.contact_us_info_block.field_lat
+    - field.field.node.contact_us_info_block.field_long
+    - field.field.node.contact_us_info_block.field_phone_number
+    - node.type.contact_us_info_block
+  module:
+    - text
+    - user
+id: node.contact_us_info_block.default
+targetEntityType: node
+bundle: contact_us_info_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_address:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_email:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_lat:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_long:
+    weight: 105
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_phone_number:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

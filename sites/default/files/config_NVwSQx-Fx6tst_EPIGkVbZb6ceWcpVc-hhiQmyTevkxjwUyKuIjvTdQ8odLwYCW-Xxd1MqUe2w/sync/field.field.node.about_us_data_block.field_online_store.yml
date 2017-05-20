@@ -1,0 +1,23 @@
+uuid: f3a21d82-fddb-4674-b5b3-34b64d3abb90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_online_store
+    - node.type.about_us_data_block
+id: node.about_us_data_block.field_online_store
+field_name: field_online_store
+entity_type: node
+bundle: about_us_data_block
+label: 'Online Store'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

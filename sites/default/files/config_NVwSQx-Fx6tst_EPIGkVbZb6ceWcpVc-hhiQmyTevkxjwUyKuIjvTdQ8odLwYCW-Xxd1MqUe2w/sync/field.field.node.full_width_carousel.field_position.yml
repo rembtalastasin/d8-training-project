@@ -1,0 +1,19 @@
+uuid: 3eb3518b-1a92-4aa4-b15f-915125af721a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_position
+    - node.type.full_width_carousel
+id: node.full_width_carousel.field_position
+field_name: field_position
+entity_type: node
+bundle: full_width_carousel
+label: Position
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

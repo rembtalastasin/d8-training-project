@@ -1,0 +1,93 @@
+uuid: 19d3b148-d418-43e9-bc87-d91839204b53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.reservations.body
+    - field.field.node.reservations.field_email
+    - field.field.node.reservations.field_name
+    - field.field.node.reservations.field_notes
+    - field.field.node.reservations.field_phone_number
+    - field.field.node.reservations.field_reservation_date
+    - field.field.node.reservations.field_reservation_time
+    - field.field.node.reservations.field_total_people
+    - node.type.reservations
+  module:
+    - datetime
+    - text
+    - user
+id: node.reservations.default
+targetEntityType: node
+bundle: reservations
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_email:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_name:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_notes:
+    weight: 111
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_phone_number:
+    weight: 112
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_reservation_date:
+    weight: 109
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_reservation_time:
+    weight: 104
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  field_total_people:
+    weight: 110
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

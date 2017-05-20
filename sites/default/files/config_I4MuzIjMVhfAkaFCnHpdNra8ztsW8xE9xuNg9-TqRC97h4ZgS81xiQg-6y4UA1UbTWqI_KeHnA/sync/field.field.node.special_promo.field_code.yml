@@ -1,0 +1,19 @@
+uuid: fb27b42d-67f1-4d37-9a68-1de255f445e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code
+    - node.type.special_promo
+id: node.special_promo.field_code
+field_name: field_code
+entity_type: node
+bundle: special_promo
+label: Code
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,33 @@
+uuid: 1154e895-531e-4e4e-b978-b1013f3d1f82
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2bbfd2e1-f144-4d95-bf4f-7fdaafe11b6b'
+  module:
+    - block_content
+    - node
+  theme:
+    - d8training
+id: header
+theme: d8training
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:2bbfd2e1-f144-4d95-bf4f-7fdaafe11b6b'
+settings:
+  id: 'block_content:2bbfd2e1-f144-4d95-bf4f-7fdaafe11b6b'
+  label: Header
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      landing_pages: landing_pages
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

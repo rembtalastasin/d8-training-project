@@ -1,0 +1,21 @@
+uuid: 92b8b51a-9243-48ef-b3a1-98496391e8b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.event_participants
+  module:
+    - text
+id: node.event_participants.field_name
+field_name: field_name
+entity_type: node
+bundle: event_participants
+label: Name
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

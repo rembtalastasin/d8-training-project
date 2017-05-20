@@ -1,0 +1,19 @@
+uuid: b7ee5eab-55fd-45b5-a7fc-1396594d865b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.profiles
+id: node.profiles.field_name
+field_name: field_name
+entity_type: node
+bundle: profiles
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

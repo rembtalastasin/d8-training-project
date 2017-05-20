@@ -1,0 +1,21 @@
+uuid: 39bbc6fd-4082-4d78-8966-9ddd551b44d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reservation_date
+    - node.type.reservations
+  module:
+    - datetime
+id: node.reservations.field_reservation_date
+field_name: field_reservation_date
+entity_type: node
+bundle: reservations
+label: 'Reservation Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

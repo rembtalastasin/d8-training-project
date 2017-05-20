@@ -1,0 +1,20 @@
+uuid: a9cd1185-28c6-4be1-93a1-64d6e1023bda
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_parcel_today
+field_name: field_parcel_today
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,46 @@
+uuid: 3c3afa48-a130-4410-8bd5-a03df8814a6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landin_pages.body
+    - field.field.node.landin_pages.field_hero_image
+    - field.field.node.landin_pages.field_hero_text
+    - node.type.landin_pages
+  module:
+    - image
+    - text
+    - user
+id: node.landin_pages.default
+targetEntityType: node
+bundle: landin_pages
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_hero_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_hero_text:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

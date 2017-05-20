@@ -1,0 +1,22 @@
+uuid: c930f062-929d-491a-b170-185c84c26d31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.reservations
+  module:
+    - text
+id: node.reservations.body
+field_name: body
+entity_type: node
+bundle: reservations
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

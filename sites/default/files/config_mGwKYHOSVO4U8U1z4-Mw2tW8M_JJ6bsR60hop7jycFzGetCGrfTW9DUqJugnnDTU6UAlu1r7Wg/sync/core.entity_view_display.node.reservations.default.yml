@@ -1,0 +1,92 @@
+uuid: bc46d2c8-2251-4204-b8a0-264f5c976a50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.reservations.body
+    - field.field.node.reservations.field_email
+    - field.field.node.reservations.field_name
+    - field.field.node.reservations.field_notes
+    - field.field.node.reservations.field_phone_number
+    - field.field.node.reservations.field_reservation_date
+    - field.field.node.reservations.field_reservation_time
+    - field.field.node.reservations.field_total_people
+    - node.type.reservations
+  module:
+    - datetime
+    - text
+    - user
+id: node.reservations.default
+targetEntityType: node
+bundle: reservations
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_email:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_name:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_notes:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_phone_number:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_reservation_date:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_reservation_time:
+    weight: 105
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  field_total_people:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

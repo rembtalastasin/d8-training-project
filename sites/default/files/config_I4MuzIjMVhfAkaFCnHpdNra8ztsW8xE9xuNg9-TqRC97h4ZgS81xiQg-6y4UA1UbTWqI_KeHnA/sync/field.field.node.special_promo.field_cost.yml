@@ -1,0 +1,23 @@
+uuid: dbddc7b4-a878-44c3-9942-aa171b04b458
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cost
+    - node.type.special_promo
+id: node.special_promo.field_cost
+field_name: field_cost
+entity_type: node
+bundle: special_promo
+label: Cost
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

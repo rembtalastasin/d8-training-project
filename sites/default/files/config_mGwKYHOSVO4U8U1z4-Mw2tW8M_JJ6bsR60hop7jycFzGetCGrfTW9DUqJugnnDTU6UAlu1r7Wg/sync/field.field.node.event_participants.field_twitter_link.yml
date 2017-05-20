@@ -1,0 +1,23 @@
+uuid: bf3afcad-8307-45d6-bb63-5b033529bbbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_twitter_link
+    - node.type.event_participants
+  module:
+    - link
+id: node.event_participants.field_twitter_link
+field_name: field_twitter_link
+entity_type: node
+bundle: event_participants
+label: 'Twitter Link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

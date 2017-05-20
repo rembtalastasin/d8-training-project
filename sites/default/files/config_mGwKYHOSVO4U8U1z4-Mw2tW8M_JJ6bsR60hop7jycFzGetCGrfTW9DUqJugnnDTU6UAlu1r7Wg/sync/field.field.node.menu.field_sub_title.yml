@@ -1,0 +1,19 @@
+uuid: 1522e744-5e4b-46b7-998a-a573dd6f85c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sub_title
+    - node.type.menu
+id: node.menu.field_sub_title
+field_name: field_sub_title
+entity_type: node
+bundle: menu
+label: Sub-Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

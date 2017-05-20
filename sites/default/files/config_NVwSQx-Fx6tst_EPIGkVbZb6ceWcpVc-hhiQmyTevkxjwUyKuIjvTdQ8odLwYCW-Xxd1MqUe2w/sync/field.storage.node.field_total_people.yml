@@ -1,0 +1,20 @@
+uuid: 7900c163-5626-4eb9-b213-d68e4d55163d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_total_people
+field_name: field_total_people
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

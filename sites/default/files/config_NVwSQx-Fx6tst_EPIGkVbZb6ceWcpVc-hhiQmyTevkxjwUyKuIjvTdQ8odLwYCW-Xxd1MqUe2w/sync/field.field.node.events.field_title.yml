@@ -1,0 +1,19 @@
+uuid: f3e3dd61-50e5-41c7-9f84-1adab2cdf8df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.events
+id: node.events.field_title
+field_name: field_title
+entity_type: node
+bundle: events
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

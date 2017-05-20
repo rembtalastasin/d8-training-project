@@ -1,0 +1,23 @@
+uuid: f8674149-cd15-4cf9-b9c1-5c38e8a90788
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_behance_link
+    - node.type.profiles
+  module:
+    - link
+id: node.profiles.field_behance_link
+field_name: field_behance_link
+entity_type: node
+bundle: profiles
+label: 'Behance Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

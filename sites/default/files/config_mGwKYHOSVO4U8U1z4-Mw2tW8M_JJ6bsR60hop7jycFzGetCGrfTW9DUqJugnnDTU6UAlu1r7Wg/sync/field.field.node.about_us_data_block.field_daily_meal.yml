@@ -1,0 +1,23 @@
+uuid: 92361ac6-5088-4cfc-91cf-7ec0bbdd4487
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_daily_meal
+    - node.type.about_us_data_block
+id: node.about_us_data_block.field_daily_meal
+field_name: field_daily_meal
+entity_type: node
+bundle: about_us_data_block
+label: 'Daily Meal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,19 @@
+uuid: a9bf1842-896b-4cbe-ada7-d043ad154cf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.reservations
+id: node.reservations.field_name
+field_name: field_name
+entity_type: node
+bundle: reservations
+label: Name
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

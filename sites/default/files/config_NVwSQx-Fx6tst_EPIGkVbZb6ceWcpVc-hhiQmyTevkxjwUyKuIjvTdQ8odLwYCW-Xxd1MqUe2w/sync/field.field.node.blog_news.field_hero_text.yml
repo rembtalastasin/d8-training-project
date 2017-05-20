@@ -1,0 +1,19 @@
+uuid: 1ea59ed9-b576-46f7-81cb-de5c57317078
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_text
+    - node.type.blog_news
+id: node.blog_news.field_hero_text
+field_name: field_hero_text
+entity_type: node
+bundle: blog_news
+label: 'Hero Text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

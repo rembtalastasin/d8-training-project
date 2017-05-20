@@ -1,0 +1,18 @@
+uuid: d81e2ec2-9350-4e47-a958-f4679454010e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Contact Us - Data Block'
+type: contact_us_data_block
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

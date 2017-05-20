@@ -1,0 +1,21 @@
+uuid: 806dd689-6de2-435f-ad38-a1a181efa6a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reservation_time
+    - node.type.reservations
+id: node.reservations.field_reservation_time
+field_name: field_reservation_time
+entity_type: node
+bundle: reservations
+label: 'Reservation Time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1494755821
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

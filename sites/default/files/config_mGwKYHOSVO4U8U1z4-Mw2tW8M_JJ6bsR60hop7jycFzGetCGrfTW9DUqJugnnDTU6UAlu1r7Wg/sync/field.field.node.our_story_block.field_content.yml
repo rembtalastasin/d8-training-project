@@ -1,0 +1,43 @@
+uuid: 4dd6f11a-922a-413f-8baf-64e677f1267e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.article
+    - node.type.blog_news
+    - node.type.events
+    - node.type.full_width_carousel
+    - node.type.hero_carousel_block
+    - node.type.landing_pages
+    - node.type.our_story_block
+    - node.type.page
+    - node.type.reservations
+id: node.our_story_block.field_content
+field_name: field_content
+entity_type: node
+bundle: our_story_block
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+      page: page
+      blog_news: blog_news
+      events: events
+      full_width_carousel: full_width_carousel
+      hero_carousel_block: hero_carousel_block
+      landing_pages: landing_pages
+      our_story_block: our_story_block
+      reservations: reservations
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: article
+field_type: entity_reference

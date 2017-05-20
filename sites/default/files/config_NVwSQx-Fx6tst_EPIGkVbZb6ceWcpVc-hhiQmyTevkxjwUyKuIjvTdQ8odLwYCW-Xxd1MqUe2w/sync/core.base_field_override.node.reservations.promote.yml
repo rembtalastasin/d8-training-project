@@ -1,0 +1,22 @@
+uuid: a076ca90-5850-4a30-a66a-aacbfff63e08
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.reservations
+id: node.reservations.promote
+field_name: promote
+entity_type: node
+bundle: reservations
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

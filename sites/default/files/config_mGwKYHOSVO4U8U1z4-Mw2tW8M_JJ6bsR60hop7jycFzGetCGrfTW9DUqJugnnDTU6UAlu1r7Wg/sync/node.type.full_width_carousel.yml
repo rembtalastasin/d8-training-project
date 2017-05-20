@@ -1,0 +1,17 @@
+uuid: 7760f84f-4ed9-40bf-81ae-2b2b17d4db95
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Full Width Carousel'
+type: full_width_carousel
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

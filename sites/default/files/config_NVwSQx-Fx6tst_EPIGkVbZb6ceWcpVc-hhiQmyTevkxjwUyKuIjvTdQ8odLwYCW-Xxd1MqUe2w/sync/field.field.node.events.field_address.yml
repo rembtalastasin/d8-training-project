@@ -1,0 +1,19 @@
+uuid: c16f7477-9340-470f-913f-42813c4535f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.events
+id: node.events.field_address
+field_name: field_address
+entity_type: node
+bundle: events
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

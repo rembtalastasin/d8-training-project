@@ -1,0 +1,22 @@
+uuid: 1824ccdc-2043-44b4-bace-a504cee12f3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.contact_us_info_block
+id: node.contact_us_info_block.promote
+field_name: promote
+entity_type: node
+bundle: contact_us_info_block
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

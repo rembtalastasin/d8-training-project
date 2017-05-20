@@ -1,0 +1,23 @@
+uuid: f6bd92d9-12fc-4a47-b9a1-f513f7b40536
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instagram_link
+    - node.type.event_participants
+  module:
+    - link
+id: node.event_participants.field_instagram_link
+field_name: field_instagram_link
+entity_type: node
+bundle: event_participants
+label: 'Instagram Link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

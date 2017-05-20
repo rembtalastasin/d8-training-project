@@ -1,0 +1,22 @@
+uuid: 22bce70e-1457-4ef8-9144-084df6959361
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.landin_pages
+id: node.landin_pages.promote
+field_name: promote
+entity_type: node
+bundle: landin_pages
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

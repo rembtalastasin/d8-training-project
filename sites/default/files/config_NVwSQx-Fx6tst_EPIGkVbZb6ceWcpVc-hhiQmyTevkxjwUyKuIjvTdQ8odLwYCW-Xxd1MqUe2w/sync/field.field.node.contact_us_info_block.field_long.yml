@@ -1,0 +1,23 @@
+uuid: 7a6792f5-46ea-48d0-9140-980a1db217c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_long
+    - node.type.contact_us_info_block
+id: node.contact_us_info_block.field_long
+field_name: field_long
+entity_type: node
+bundle: contact_us_info_block
+label: Long
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,19 @@
+uuid: bb04bfa1-321d-4c81-989c-2d44acb9c5a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_text
+    - node.type.landin_pages
+id: node.landin_pages.field_hero_text
+field_name: field_hero_text
+entity_type: node
+bundle: landin_pages
+label: 'Hero Text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

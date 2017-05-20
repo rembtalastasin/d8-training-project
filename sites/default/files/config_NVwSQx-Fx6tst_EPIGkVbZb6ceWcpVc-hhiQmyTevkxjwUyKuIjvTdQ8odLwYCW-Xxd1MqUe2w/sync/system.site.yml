@@ -1,0 +1,14 @@
+uuid: 2804327c-c465-4c24-901e-a0153f918cdf
+name: 'D8 Training'
+mail: remb@gobeyondstudios.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

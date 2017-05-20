@@ -1,0 +1,66 @@
+uuid: c65ed812-afc2-44e5-a69c-62736e37df0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.about_us_data_block.body
+    - field.field.node.about_us_data_block.field_clients
+    - field.field.node.about_us_data_block.field_daily_meal
+    - field.field.node.about_us_data_block.field_online_store
+    - field.field.node.about_us_data_block.field_parcel_today
+    - node.type.about_us_data_block
+  module:
+    - text
+    - user
+id: node.about_us_data_block.default
+targetEntityType: node
+bundle: about_us_data_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_clients:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_daily_meal:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_online_store:
+    weight: 105
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_parcel_today:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

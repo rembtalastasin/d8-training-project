@@ -1,0 +1,19 @@
+uuid: a9949573-ea0e-4ad1-a461-975b094f5ce9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone_number
+    - node.type.contact_us_info_block
+id: node.contact_us_info_block.field_phone_number
+field_name: field_phone_number
+entity_type: node
+bundle: contact_us_info_block
+label: 'Phone Number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

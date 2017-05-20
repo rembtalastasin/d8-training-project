@@ -1,0 +1,22 @@
+uuid: b8ed7d42-aa3b-4c2a-b973-c2ff3ac7c793
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.full_width_carousel
+  module:
+    - text
+id: node.full_width_carousel.body
+field_name: body
+entity_type: node
+bundle: full_width_carousel
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

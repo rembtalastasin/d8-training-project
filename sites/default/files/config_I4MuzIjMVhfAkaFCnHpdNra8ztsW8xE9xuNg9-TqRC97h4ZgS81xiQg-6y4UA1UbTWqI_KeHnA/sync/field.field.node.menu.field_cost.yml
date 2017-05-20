@@ -1,0 +1,23 @@
+uuid: 36410401-f346-4635-8939-5eecdfc5c252
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cost
+    - node.type.menu
+id: node.menu.field_cost
+field_name: field_cost
+entity_type: node
+bundle: menu
+label: Cost
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

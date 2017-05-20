@@ -1,0 +1,22 @@
+uuid: e95e6132-6e1b-48b9-b7af-5f6491575dbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8training
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: d8training_content
+theme: d8training
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

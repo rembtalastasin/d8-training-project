@@ -1,0 +1,23 @@
+uuid: 14cc6cd7-7238-4f08-ae74-2e3951a616b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_behance_link
+    - node.type.event_participants
+  module:
+    - link
+id: node.event_participants.field_behance_link
+field_name: field_behance_link
+entity_type: node
+bundle: event_participants
+label: 'Behance Link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 0
+field_type: link

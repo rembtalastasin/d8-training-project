@@ -1,0 +1,19 @@
+uuid: 6090fd06-c7b5-4dac-8b58-e25c2d1a044a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code
+    - node.type.special_promo
+id: node.special_promo.field_code
+field_name: field_code
+entity_type: node
+bundle: special_promo
+label: Code
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

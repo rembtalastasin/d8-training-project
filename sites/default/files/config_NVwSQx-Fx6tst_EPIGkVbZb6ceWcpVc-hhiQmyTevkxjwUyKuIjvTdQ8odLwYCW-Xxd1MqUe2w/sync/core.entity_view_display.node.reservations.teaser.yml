@@ -1,0 +1,28 @@
+uuid: 66e100d6-5f74-4c26-bf63-a806a437f2b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.reservations.body
+    - node.type.reservations
+  module:
+    - text
+    - user
+id: node.reservations.teaser
+targetEntityType: node
+bundle: reservations
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

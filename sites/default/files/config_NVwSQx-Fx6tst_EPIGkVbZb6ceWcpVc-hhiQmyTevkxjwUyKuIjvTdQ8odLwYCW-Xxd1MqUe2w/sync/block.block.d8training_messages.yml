@@ -1,0 +1,22 @@
+uuid: 34d66749-3f91-4a64-bcce-81c1749a07bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8training
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: d8training_messages
+theme: d8training
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

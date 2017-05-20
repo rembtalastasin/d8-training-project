@@ -1,0 +1,28 @@
+uuid: 6950420c-7dd9-4104-8ad1-bf515c640646
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.landin_pages.body
+    - node.type.landin_pages
+  module:
+    - text
+    - user
+id: node.landin_pages.teaser
+targetEntityType: node
+bundle: landin_pages
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

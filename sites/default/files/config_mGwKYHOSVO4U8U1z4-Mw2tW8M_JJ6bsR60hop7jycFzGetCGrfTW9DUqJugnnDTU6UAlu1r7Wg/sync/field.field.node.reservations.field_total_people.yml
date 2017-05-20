@@ -1,0 +1,23 @@
+uuid: fa3c3d1e-01df-4084-b4a4-794cee407877
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_people
+    - node.type.reservations
+id: node.reservations.field_total_people
+field_name: field_total_people
+entity_type: node
+bundle: reservations
+label: 'Total People'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

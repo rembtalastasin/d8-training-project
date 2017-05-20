@@ -1,0 +1,18 @@
+uuid: 4583c9d1-23dc-45b3-a440-019d4a7416f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Hero Carousel Block'
+type: hero_carousel_block
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,22 @@
+uuid: a87d7589-cc67-4300-9507-f3af45659021
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8training
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: d8training_powered
+theme: d8training
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

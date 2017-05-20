@@ -1,0 +1,28 @@
+uuid: 91b996bd-6457-419c-9fcf-5c1e5293bbbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.full_width_carousel.body
+    - node.type.full_width_carousel
+  module:
+    - text
+    - user
+id: node.full_width_carousel.teaser
+targetEntityType: node
+bundle: full_width_carousel
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

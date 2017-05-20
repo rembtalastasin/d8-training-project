@@ -1,0 +1,20 @@
+uuid: a790a543-d171-48e1-924a-3dac80d58e87
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_reservation_date
+field_name: field_reservation_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

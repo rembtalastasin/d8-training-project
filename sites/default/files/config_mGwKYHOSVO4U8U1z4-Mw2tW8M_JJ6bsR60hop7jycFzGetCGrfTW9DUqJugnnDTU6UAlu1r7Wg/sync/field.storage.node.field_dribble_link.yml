@@ -1,0 +1,19 @@
+uuid: 796c2156-54a2-439c-83f3-b9dd1a42f7a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_dribble_link
+field_name: field_dribble_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
