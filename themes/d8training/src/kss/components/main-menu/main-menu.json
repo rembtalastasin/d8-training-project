@@ -1,0 +1,121 @@
+{
+    "home_url": "#",
+    "main_logo_black": {
+        "src" : "../images/main-logo-black.png",
+        "alt" : "Logo (Black)"
+    },
+    "main_logo": {
+        "src" : "../images/main-logo.png",
+        "alt" : "Logo"
+    },
+    "email" : "Info@Owl Restaurant.Com",
+    "telephone": "+1 800 234 5678",
+    "bookmarks": [
+        {
+            "title": "Facebook",
+            "url": "#",
+            "icon_class": "fa fa-facebook"
+        },
+        {
+            "title": "Twitter",
+            "url": "#",
+            "icon_class": "fa fa-twitter"
+        },
+        {
+            "title": "Dribble",
+            "url": "#",
+            "icon_class": "fa fa-dribble"
+        },
+        {
+            "title": "Behance",
+            "url": "#",
+            "icon_class": "fa fa-behance"
+        },
+        {
+            "title": "RSS Feed",
+            "url": "#",
+            "icon_class": "fa fa-feed"
+        }
+    ],
+    "cta": {
+        "text": "Book a Table",
+        "url": "#"
+    },
+    "menu": [
+        {
+            "url": "#",
+            "text": "Home",
+            "active": true
+        },
+        {
+            "url": "#",
+            "text": "About Us"
+        },
+        {
+            "url": "#",
+            "text": "Pages",
+            "sub_menu": [
+                {
+                    "url": "#",
+                    "text": "About Style 2"
+                },
+                {
+                    "url": "#",
+                    "text": "Menu Style 2"
+                },
+                {
+                    "url": "#",
+                    "text": "Reservation Style 2"
+                },
+                {
+                    "url": "#",
+                    "text": "Contact Style 2"
+                },
+                {
+                    "url": "#",
+                    "text": "Blog Classic"
+                },
+                {
+                    "url": "#",
+                    "text": "Single Post"
+                },
+                {
+                    "url": "#",
+                    "text": "Classic Events"
+                },
+                {
+                    "url": "#",
+                    "text": "Events Details"
+                },
+                {
+                    "url": "#",
+                    "text": "404 Error"
+                }
+            ]
+        },
+        {
+            "url": "#",
+            "text": "Reservation"
+        },
+        {
+            "url": "#",
+            "text": "Events"
+        },
+        {
+            "url": "#",
+            "text": "Menu"
+        },
+        {
+            "url": "#",
+            "text": "Blog"
+        },
+        {
+            "url": "#",
+            "text": "Contact"
+        },
+    ],
+    "search_form": {
+        "heading": "Search",
+        "placeholder": "Search..."
+    }
+}

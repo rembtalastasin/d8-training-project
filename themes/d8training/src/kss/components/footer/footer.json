@@ -1,0 +1,66 @@
+{
+    "address": "20,floor,Queenslad Victoria Building. 60 california street california USA",
+    "email": {
+        "link": "mailto:mehedidb@gmail.com",
+        "text": "Hellow@OwlTheme.com"
+    },
+    "phone_number": {
+        "link": "callto:+8800000001111",
+        "text": "+88 000 0000 1111"
+    },
+    "bookmarks": [
+        {
+            "title": "Facebook",
+            "url": "#",
+            "icon_class": "fa fa-facebook"
+        },
+        {
+            "title": "Twitter",
+            "url": "#",
+            "icon_class": "fa fa-twitter"
+        },
+        {
+            "title": "Dribble",
+            "url": "#",
+            "icon_class": "fa fa-dribble"
+        },
+        {
+          "title": "Google Plus",
+          "url": "#",
+          "icon_class": "fa fa-google-plus"
+        },
+        {
+          "title": "Flickr",
+          "url": "#",
+          "icon_class": "fa fa-flickr"
+        },
+        {
+          "title": "Pinterest",
+          "url": "#",
+          "icon_class": "fa fa-pinterest"
+        },
+        {
+          "title": "Skype",
+          "url": "#",
+          "icon_class": "fa fa-skype"
+        }
+    ],
+    "links": [
+        {
+            "text": "Terms of use",
+            "url": "#"
+        },
+        {
+            "text": "Privacy Policy",
+            "url": "#"
+        },
+        {
+            "text": "Sitemap",
+            "url": "#"
+        },
+        {
+            "text": "Contact",
+            "url": "#"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+<!--FOOTER AREA-->
+<div class="footer-area">
+    <div class="container wow fadeIn">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                <div class="footer-top section-padding text-center">
+                    <div class="footer-logo">
+                        <a href="#"><img src="img/footer_white_logo.png" alt=""></a>
+                    </div>
+                    <div class="footer-address">
+                        <p>{{ address }}</p>
+                        <p><a href="{{ email.link }}">{{ email.text }}</a></p>
+                        <p><a href="{{ phone_number.link }}">{{ phone_number.text }}</a></p>
+                    </div>
+                    <div class="footer-social-bookmark">
+                        <ul>
+                            {% for link in bookmarks -%}
+                                <li><a href="{{ link.url }}"><i class="{{ link.icon_class }}"></i></a></li>
+                            {%- endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="footer-menu">
+                    <ul>
+                        {% for link in links -%}
+                            <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+                        {%- endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="footer-copyright">
+                    <p>&copy; 2017 <a href="#">Owl Restaurant</a> All Right Reserved. Coded by <a href="http://themeforest.net/user/bdexpert">BDEXPERT</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FOOTER AREA END-->
