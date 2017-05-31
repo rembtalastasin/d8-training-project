@@ -1,0 +1,57 @@
+{{ attach_library('d8training/header') }}
+
+{% set bookmarks = [] %}
+{% for bookmark in content['#header_bookmarks']['#items'] %}
+  {% set bookmarks = bookmarks|merge([{
+    'text': bookmark.title,
+    'url': bookmark.url,
+    'icon_class': 'fa fa-' ~ bookmark.title|lower
+  }]) %}
+{% endfor %}
+
+{% set links = [] %}
+{% for item in content['#header_menu']['#items'] %}
+  {% set sub_menu = [] %}
+
+  {% if item.below|length > 0 %}
+    {% for item2 in item.below %}
+      {% set sub_menu = sub_menu|merge([{
+        'url': item2.url,
+        'text': item2.title,
+        'active': item2.in_active_trail
+      }]) %}
+    {% endfor %}
+  {% endif %}
+
+  {% set links = links|merge([{
+    'url': item.url,
+    'text': item.title,
+    'active': item.in_active_trail,
+    'sub_menu': sub_menu
+  }]) %}
+{% endfor %}
+
+{% set vars = {
+  'main_menu': {
+    'home_url': content['#home_url'],
+    'primary_logo': {
+      'src': file_url(content['#primary_logo'].fileuri)
+    },
+    'secondary_logo': {
+      'src': file_url(content['#secondary_logo'].fileuri)
+    },
+    'email': content['#email'],
+    'telephone': content['#telephone'],
+    'bookmarks': bookmarks,
+    'cta': {
+      'text': 'Book A Table',
+      'url': '#'
+    },
+    'menu': links,
+    'search_form': {
+      'heading': 'Search',
+      'placeholder': 'Search...'
+    }
+  }
+} %}
+

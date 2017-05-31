@@ -1,0 +1,20 @@
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #aaa; }
+  .button.primary {
+    background-color: #5c4; }
+  .button.remove {
+    background-color: #c54; }
+
+/*# sourceMappingURL=button.css.map */

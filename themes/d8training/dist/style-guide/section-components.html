@@ -1,0 +1,153 @@
+      
+  <!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Style Guide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/button.css">
+<link rel="stylesheet" href="../css/footer.css">
+<link rel="stylesheet" href="../css/global.css">
+<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/main-menu.css">
+<link rel="stylesheet" href="../css/search-form.css">
+<link rel="stylesheet" href="../css/styleguide.css">
+
+</head>
+<body id="kss-node">
+
+<nav class="kss-nav">
+  <ul class="kss-nav__menu">
+    <li class="kss-nav__menu-item">
+      <a class="kss-nav__menu-link" href="./index.html">
+        <span class="kss-nav__name">Overview</span>
+      </a>
+    </li>
+      <li class="kss-nav__menu-item">
+      <a class="kss-nav__menu-link" href="section-components.html">
+        <span class="kss-nav__name">Components</span>
+      </a>
+              <ul class="kss-nav__menu-child">
+                  <li class="kss-nav__menu-item">
+            <a class="kss-nav__menu-link" href="item-components-buttons.html">
+              <span class="kss-nav__name">Buttons</span>
+            </a>
+          </li>
+                </ul>
+          </li>
+      <li class="kss-nav__menu-item">
+      <a class="kss-nav__menu-link" href="section-pages.html">
+        <span class="kss-nav__name">Pages</span>
+      </a>
+              <ul class="kss-nav__menu-child">
+                  <li class="kss-nav__menu-item">
+            <a class="kss-nav__menu-link" href="item-pages-sample.html">
+              <span class="kss-nav__name">Sample Page</span>
+            </a>
+          </li>
+                </ul>
+          </li>
+    </ul>
+</nav>
+
+<article role="main" class="kss-main">
+          <div id="kssref-components" class="kss-section kss-section--depth-1">
+      <div class="kss-style">
+                <h1 class="kss-title kss-title--level-1">
+          Components
+        </h1>
+
+        
+              </div>
+
+      
+          </div>
+          <section id="kssref-components-buttons" class="kss-section kss-section--depth-2">
+      <div class="kss-style">
+                <h2 class="kss-title kss-title--level-2">
+          Buttons
+        </h2>
+
+                  <div class="kss-description">
+            <p>A majority of buttons in the site are built from the same base class.</p>
+
+          </div>
+        
+              </div>
+
+              <div class="kss-modifier__wrapper">
+
+                      <div class="kss-modifier__default-name kss-style">
+              Default
+            </div>
+          
+          <div class="kss-modifier__example">
+            <a href="#" class="button ">Hello There Fellow</a>
+<button class="button ">Hello There Fellow</button>
+<input type="button" class="button " value="input[type='button']"/>
+            <div class="kss-modifier__example-footer"></div>
+          </div>
+
+                      <div class="kss-style">
+              <div class="kss-modifier__name">
+                .primary
+              </div>
+              <div class="kss-modifier__description">
+                Use this class to indicate that the button is the primary feature of this form.
+              </div>
+            </div>
+            <div class="kss-modifier__example">
+              <a href="#" class="button primary">Hello There Fellow</a>
+<button class="button primary">Hello There Fellow</button>
+<input type="button" class="button primary" value="input[type='button']"/>
+              <div class="kss-modifier__example-footer"></div>
+            </div>
+                      <div class="kss-style">
+              <div class="kss-modifier__name">
+                .remove
+              </div>
+              <div class="kss-modifier__description">
+                Use this class to indicate that the button will remove a feature, or other negative connotations.
+              </div>
+            </div>
+            <div class="kss-modifier__example">
+              <a href="#" class="button remove">Hello There Fellow</a>
+<button class="button remove">Hello There Fellow</button>
+<input type="button" class="button remove" value="input[type='button']"/>
+              <div class="kss-modifier__example-footer"></div>
+            </div>
+                  </div>
+                  <div class="kss-style">
+            <details class="kss-markup">
+              <summary>
+                                  Markup: <code>button/button.twig</code>
+                              </summary>
+              <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;a href=&quot;#&quot; class=&quot;button {{modifier_class}}&quot;&gt;{{ text }}&lt;/a&gt;
+&lt;button class=&quot;button {{modifier_class}}&quot;&gt;{{ text }}&lt;/button&gt;
+&lt;input type=&quot;button&quot; class=&quot;button {{modifier_class}}&quot; value=&quot;input[type=&#039;button&#039;]&quot;/&gt;</code></pre>
+            </details>
+          </div>
+              
+              <div class="kss-source kss-style">
+          Source: <code>button/button.scss</code>, line 1
+        </div>
+          </section>
+  </article>
+
+<script src="kss-assets/kss.js"></script>
+<script src="kss-assets/prettify.js"></script>
+<script type="text/javascript">prettyPrint();</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js"></script>
+<script src="/core/assets/vendor/domready/ready.min.js"></script>
+<script src="/core/misc/drupalSettingsLoader.js"></script>
+<script src="/core/misc/drupal.js"></script>
+<script src="../js/global.js"></script>
+
+</body>
+</html>
