@@ -1,0 +1,7 @@
+d8training_module.site_information:
+  path: '/admin/config/d8training_module/site_information'
+  defaults:
+    _form: '\Drupal\d8training_module\Form\SiteInformationForm'
+    _title: 'Site Information'
+  requirements:
+    _permission: 'administer site configuration'

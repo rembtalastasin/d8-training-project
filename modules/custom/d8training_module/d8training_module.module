@@ -1,0 +1,55 @@
+<?php
+/**
+ * @file
+ * Contains d8training_module.module..
+ */
+use Drupal\Core\Block\BlockPluginInterface;
+use Drupal\d8training_module\SiteMenu;
+use Drupal\paragraphs\Entity\Paragraph;
+
+/**
+* Implements hook_block_view_alter().
+*/
+function d8training_module_block_view_alter(array &$build, BlockPluginInterface $block) {
+  if ($build['#id'] == 'footer' || $build['#id'] == 'header') {
+    $build['#pre_render'][] = '_d8training_module_custom_block_pre_render';
+  }
+}
+
+/**
+ * Custom Block pre-render callback
+ */
+function _d8training_module_custom_block_pre_render(array $build) {
+  $id = $build['#id'];
+  $menu_map = ['header' => 'main', 'footer' => 'footer'];
+  $menu_id  = $menu_map[$id];
+  //$siteMenu = new SiteMenu();
+  //dump($siteMenu);
+  //$menus = $siteMenu->getMenu($menu_id);
+  //$build['content']['menus'] = $menus['items'];
+
+  $node = \Drupal::routeMatch()->getParameter('node');  
+  
+  /*if ($node->bundle() == 'home') {
+    $build['content']['field_header'] = $node->get('field_header');
+    $build['content']['is_home'] = true;
+  }
+  else if ($node->bundle() == 'about') {
+    $build['content']['field_header_image'] = $node->get('field_header_image');
+  }*/
+  $build['content']['node'] = $node;
+
+  return $build;
+}
+
+function d8training_module_theme($existing, $type, $theme, $path) {
+  return [
+    'header' => [
+      'variables' => [],
+      'template' => 'd8training/header/header.twig'
+    ],
+    'd8t_footer' => [
+      'variables' => [],
+    ],
+  ];
+}
